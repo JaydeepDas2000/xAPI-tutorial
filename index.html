@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>xAPI in Action Example</title>
+	<!-- Mobile Specific Metas -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- Bootstrap CSS -->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  	<!-- Custom CSS -->
+  	<link rel="stylesheet" type="text/css" href="css/interaction.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+		
+		<h5>Send Simple Statement on Button Click</h5>
+		<p>In the following example you will learn how to send a simple xAPI statement.</p>
+
+		<!-- Button to send statement -->
+		<div class="d-grid gap-2">
+			<button type="button" class="btn btn-primary btn-lg" onclick="sendStatement()">SEND xAPI STATEMENT</button>
+		</div>
+
+	</div>
+
+	<!-- Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- ADL Wrapper -->
+	<script src="js/cryptojs_v3.1.2.js"></script>
+	<script src="js/xapiwrapper.js"></script>
+
+	<!-- Our Own JS -->
+	<script src="js/interaction.js"></script>
+
+</body>
+
+</html>
